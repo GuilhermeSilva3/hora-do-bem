@@ -1,0 +1,452 @@
+
+body {
+    
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color:rgb(15, 77, 212);
+    line-height: 1.6;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.container-2{
+    font-size: 30px;
+
+    margin-left: 35%;
+
+}
+
+
+a {
+    
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+     background: url('./SOLIDARIEDADE.jpg') no-repeat center center/cover;
+   width: 100%;
+    background-color: #5fbe10;
+    color: rgb(255, 255, 255);
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+   color: #0906f1;
+   
+    font-size: 10  rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #0906f1;
+    font-size: 1.2rem;
+}
+
+/* Navegação */
+nav {
+    background-color: #0561eb;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(12, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #e0e4ee;
+}
+
+
+.hero {
+    background: url('./comunidade.webp') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.hero .botao:hover {
+    background-color: #45a049;
+}
+
+.como-funciona {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.como-funciona h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.passos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.passo {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.passo img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.passo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.passo p {
+    font-size: 1rem;
+}
+
+/* Depoimentos */
+.depoimentos {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.depoimentos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.cards-depoimentos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.card span {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Formulário de Cadastro */
+.formulario {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grupo-formulario {
+    margin-bottom: 15px;
+}
+
+/* Estilos para o formulário de edição */
+.grupo-formulario {
+    margin-bottom: 15px;
+}
+
+.grupo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.grupo-formulario input,
+.grupo-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.grupo-formulario textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.grupo-formulario button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.grupo-formulario button[type="button"] {
+    background-color: #ccc;
+}
+
+.grupo-formulario button:hover {
+    opacity: 0.9;
+}
+
+/* Página de Busca */
+.busca {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.busca input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.busca button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.busca button:hover {
+    background-color: #45a049;
+}
+
+#listaServicos {
+    margin-top: 20px;
+}
+
+/* Página de Perfil */
+.perfil {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.perfil p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.perfil ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.perfil ul li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .passos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .passo {
+        width: 80%;
+    }
+
+    .cards-depoimentos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {       
+        font-size: 1rem;
+    }
+
+    .busca input {
+        width: 70%;
+    }
+}
+/* Tela de Agendamento */
+.tela-agendamento {
+    display: none; /* Oculta a tela inicialmente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro semi-transparente */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Garante que a tela fique acima de tudo */
+}
+
+.tela-agendamento .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tela-agendamento h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.tela-agendamento .grupo-formulario {
+    margin-bottom: 15px;
+}
+
+.tela-agendamento label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tela-agendamento input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.tela-agendamento button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.tela-agendamento button[type="button"] {
+    background-color: #ccc;
+}
+
+.tela-agendamento button:hover {
+    opacity: 0.9;
+}
+
+.depoimentos{
+   display: inline;
+
+width: 0,3rem;
+height: 0,3rem;
+
+}
+
+.justiça{
+width: 200px;
+height: 200px;
+
+}
+
+.ongs{
+
+    width: 200px;
+    height: 200px;
+    
+    }
+
+.eugenio{
+
+    width: 200px;
+    height: 200px;
+}
+
+    .unidas{
+
+        width: 200px;
+        height: 200px;
+    }
+
+    .salon{
+
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+

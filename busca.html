@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Serviços - Horas do Bem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Buscar Serviços</h1>
+            <p>Encontre serviços disponíveis na sua comunidade.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">Início</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="busca.html">Buscar Serviços</a>
+            <a href="perfil.html">Perfil</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="busca">
+            <div class="container">
+                <h2>Filtrar Serviços</h2>
+                <input type="text" id="filtro" placeholder="Digite o serviço que procura...">
+                <button onclick="filtrarServicos()">Buscar</button>
+
+                <div id="listaServicos">
+                    <!-- Serviços serão carregados aqui via JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Tela de Agendamento (inicialmente oculta) -->
+    <div id="telaAgendamento" class="tela-agendamento">
+        <div class="container">
+            <h2>Agendar Serviço</h2>
+            <form id="formAgendamento">
+                <div class="grupo-formulario">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" required>
+                </div>
+                <div class="grupo-formulario">
+                    <button type="submit">Confirmar Agendamento</button>
+                    <button type="button" onclick="fecharAgendamento()">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Horas do Bem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
